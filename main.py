@@ -18,6 +18,30 @@ def ArtistTF():
     nomAula = "Info4"
     return render_template("ArtistTF.html")
 
+@app.route("/Nightwish")
+def Nightwish():
+    #return "<h1>Hola</h1>"
+    nomAula = "Info5"
+    return render_template("Nightwish.html")
+
+@app.route("/BTS")
+def BTS():
+    #return "<h1>Hola</h1>"
+    nomAula = "Info6"
+    return render_template("BTS.html")
+
+@app.route("/Otros")
+def Otros():
+    #return "<h1>Hola</h1>"
+    nomAula = "Info7"
+    return render_template("Otros.html")
+
+@app.route("/Shop")
+def Shop():
+    #return "<h1>Hola</h1>"
+    nomAula = "Info8"
+    return render_template("Shop.html")
+
 @app.route("/info")
 def informacio():
     paramRebut = request.args.get("param1")# http://127.0.0.1:5000/info?param1=valor1
