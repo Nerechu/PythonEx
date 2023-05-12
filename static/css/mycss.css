@@ -33,4 +33,16 @@ height:400px !important;
     display: flex !important;
     flex-direction: row !important;
     min-width: 50pc !important;
+    margin: 0% 30% 0% 30%;
+}
+.cards{
+    padding: 10px !important;
+    margin: auto !important;
+}
+.titlePerson{
+    text-align:center;
+}
+.titlePerson h2{
+    margin-top:5%;
+
 }
