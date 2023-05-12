@@ -8,8 +8,7 @@ body {
 }
 
 #contenedor {
-    margin: 0 auto;
-    width: 800px;
+    margin: 5% auto;
     height: 580px;
     width: 100%;
 }
@@ -26,4 +25,12 @@ body {
 #imgMet {
     width: 300px;
     margin-top: 70px;
+}#fix{
+width:500px !important;
+height:400px !important;
+}
+.cardPerson{
+    display: flex !important;
+    flex-direction: row !important;
+    min-width: 50pc !important;
 }
